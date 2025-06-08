@@ -15,43 +15,44 @@ const Menu = () => {
           description: "Our flagship blend with notes of chocolate and caramel",
           price: "KSh 450",
           rating: 4.9,
-          badges: ["Popular", "House Blend"]
+          badges: ["Popular", "House Blend"],
         },
         {
           name: "Medium Roast",
           description: "Smooth and balanced with hints of nuts and vanilla",
           price: "KSh 400",
           rating: 4.8,
-          badges: ["Smooth"]
+          badges: ["Smooth"],
         },
         {
           name: "Light Roast",
           description: "Bright and fruity with floral undertones",
           price: "KSh 400",
           rating: 4.7,
-          badges: ["Bright"]
+          badges: ["Bright"],
         },
         {
           name: "Decaf",
-          description: "Full flavor without the caffeine, Swiss water processed",
+          description:
+            "Full flavor without the caffeine, Swiss water processed",
           price: "KSh 380",
           rating: 4.6,
-          badges: ["Caffeine Free"]
+          badges: ["Caffeine Free"],
         },
         {
           name: "Cold Brew",
           description: "Smooth, concentrated coffee steeped for 12 hours",
           price: "KSh 500",
           rating: 4.8,
-          badges: ["Cold", "Smooth"]
+          badges: ["Cold", "Smooth"],
         },
         {
           name: "Nitro Cold Brew",
           description: "Cold brew infused with nitrogen for creamy texture",
           price: "KSh 550",
           rating: 4.9,
-          badges: ["Premium", "Creamy"]
-        }
+          badges: ["Premium", "Creamy"],
+        },
       ],
     },
     espresso: {
@@ -62,43 +63,42 @@ const Menu = () => {
           description: "Classic cappuccino with house-made foam art",
           price: "KSh 550",
           rating: 4.9,
-          badges: ["Popular", "Artistic"]
+          badges: ["Popular", "Artistic"],
         },
         {
           name: "Caffe Latte",
           description: "Espresso with steamed milk and light foam",
           price: "KSh 580",
           rating: 4.8,
-          badges: ["Classic"]
+          badges: ["Classic"],
         },
         {
           name: "Americano",
           description: "Espresso shots with hot water",
           price: "KSh 480",
           rating: 4.7,
-          badges: ["Strong"]
+          badges: ["Strong"],
         },
         {
           name: "Macchiato",
           description: "Espresso 'marked' with a dollop of foam",
           price: "KSh 450",
           rating: 4.8,
-          badges: ["Traditional"]
+          badges: ["Traditional"],
         },
         {
           name: "Mocha",
           description: "Espresso with chocolate and steamed milk",
           price: "KSh 650",
           rating: 4.7,
-          badges: ["Sweet"]
+          badges: ["Sweet"],
         },
         {
           name: "Flat White",
           description: "Double shot espresso with microfoam",
           price: "KSh 600",
           rating: 4.8,
-          badges: ["Strong", "Smooth"]
-        }
+          badges: ["Strong", "Smooth"],
         },
       ],
     },
@@ -109,42 +109,42 @@ const Menu = () => {
           name: "Vintage Spice Latte",
           description:
             "Our signature blend with cinnamon, nutmeg, and cardamom",
-          price: "$6.50",
+          price: "KSh 680",
           rating: 4.9,
           badges: ["Signature", "Spiced"],
         },
         {
           name: "Salted Caramel Latte",
           description: "House-made caramel with sea salt and espresso",
-          price: "$6.25",
+          price: "KSh 650",
           rating: 4.8,
           badges: ["Sweet", "Salty"],
         },
         {
           name: "Vanilla Bean Latte",
           description: "Real vanilla bean with espresso and steamed milk",
-          price: "$6.00",
+          price: "KSh 620",
           rating: 4.7,
           badges: ["Vanilla"],
         },
         {
           name: "Matcha Latte",
           description: "Premium ceremonial grade matcha with steamed milk",
-          price: "$5.75",
+          price: "KSh 600",
           rating: 4.6,
           badges: ["Green Tea", "Antioxidants"],
         },
         {
           name: "Golden Milk Latte",
           description: "Turmeric, ginger, and warm spices with steamed milk",
-          price: "$5.50",
+          price: "KSh 580",
           rating: 4.5,
           badges: ["Caffeine Free", "Wellness"],
         },
         {
           name: "Chai Latte",
           description: "Aromatic spiced tea with steamed milk",
-          price: "$5.25",
+          price: "KSh 550",
           rating: 4.7,
           badges: ["Spiced", "Tea"],
         },
@@ -156,42 +156,42 @@ const Menu = () => {
         {
           name: "Artisan Croissant",
           description: "Buttery, flaky pastry made fresh daily",
-          price: "$3.25",
+          price: "KSh 300",
           rating: 4.8,
           badges: ["Fresh Daily", "Buttery"],
         },
         {
           name: "Blueberry Scone",
           description: "Traditional scone loaded with fresh blueberries",
-          price: "$3.75",
+          price: "KSh 350",
           rating: 4.7,
           badges: ["Fresh Berries"],
         },
         {
           name: "Chocolate Muffin",
           description: "Rich chocolate muffin with chocolate chips",
-          price: "$3.50",
+          price: "KSh 320",
           rating: 4.6,
           badges: ["Chocolate"],
         },
         {
           name: "Cinnamon Roll",
           description: "House-made with cream cheese frosting",
-          price: "$4.25",
+          price: "KSh 400",
           rating: 4.9,
           badges: ["Popular", "Sweet"],
         },
         {
           name: "Danish Pastry",
           description: "Seasonal fruit danish with almond cream",
-          price: "$4.00",
+          price: "KSh 380",
           rating: 4.7,
           badges: ["Seasonal"],
         },
         {
           name: "Banana Bread",
           description: "Moist banana bread with walnuts",
-          price: "$3.00",
+          price: "KSh 280",
           rating: 4.5,
           badges: ["Nuts"],
         },
@@ -203,42 +203,42 @@ const Menu = () => {
         {
           name: "Avocado Toast",
           description: "Sourdough with smashed avocado, tomato, and herbs",
-          price: "$8.50",
+          price: "KSh 850",
           rating: 4.8,
           badges: ["Healthy", "Vegetarian"],
         },
         {
           name: "Grilled Panini",
           description: "Ham, cheese, and tomato on artisan bread",
-          price: "$9.25",
+          price: "KSh 950",
           rating: 4.7,
           badges: ["Hot"],
         },
         {
           name: "Soup of the Day",
           description: "Ask your barista about today's selection",
-          price: "$6.50",
+          price: "KSh 650",
           rating: 4.6,
           badges: ["Daily Special"],
         },
         {
           name: "Quinoa Salad",
           description: "Mixed greens, quinoa, nuts, and balsamic dressing",
-          price: "$10.50",
+          price: "KSh 1050",
           rating: 4.7,
           badges: ["Healthy", "Gluten Free"],
         },
         {
           name: "Bagel & Cream Cheese",
           description: "Fresh bagel with choice of cream cheese",
-          price: "$4.75",
+          price: "KSh 480",
           rating: 4.5,
           badges: ["Classic"],
         },
         {
           name: "Breakfast Sandwich",
           description: "Egg, cheese, and choice of meat on English muffin",
-          price: "$7.50",
+          price: "KSh 750",
           rating: 4.8,
           badges: ["Breakfast"],
         },
@@ -273,7 +273,8 @@ const Menu = () => {
           </h1>
           <p className="text-lg text-coffee-600 max-w-2xl mx-auto">
             Crafted with passion, served with pride. Every item on our menu
-            represents our commitment to quality and tradition.
+            represents our commitment to quality and tradition. Prices in Kenyan
+            Shillings.
           </p>
         </div>
       </section>
@@ -282,7 +283,7 @@ const Menu = () => {
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Tabs defaultValue="coffee" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-12 bg-coffee-100">
+            <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-12 bg-coffee-100">
               {Object.entries(menuCategories).map(([key, category]) => (
                 <TabsTrigger
                   key={key}
