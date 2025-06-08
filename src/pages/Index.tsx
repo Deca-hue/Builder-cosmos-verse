@@ -119,11 +119,10 @@ const Index = () => {
               Visit Us Today
             </h2>
             <p className="text-coffee-200 text-lg max-w-2xl mx-auto">
-              Located in the heart of downtown, we're the perfect spot for your
+              Located in the heart of Nairobi, we're the perfect spot for your
               morning coffee, lunch break, or evening study session.
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Location */}
             <Card className="bg-coffee-700 border-coffee-600 text-center p-6">
@@ -133,10 +132,10 @@ const Index = () => {
                   Location
                 </h3>
                 <div className="text-coffee-200 space-y-1">
-                  <p>123 Coffee Street</p>
-                  <p>Downtown, City 12345</p>
+                  <p>Kimathi Street</p>
+                  <p>Nairobi, Kenya</p>
                   <p className="text-sm text-coffee-300 mt-2">
-                    Free parking available
+                    Matatu friendly location
                   </p>
                 </div>
               </CardContent>
@@ -174,8 +173,8 @@ const Index = () => {
                   Contact
                 </h3>
                 <div className="text-coffee-200 space-y-2">
-                  <p>(555) 123-BEAN</p>
-                  <p className="text-sm">hello@roastedbean.com</p>
+                  <p>+254 700 123 456</p>
+                  <p className="text-sm">hello@roastedbean.co.ke</p>
                   <Button
                     asChild
                     variant="outline"

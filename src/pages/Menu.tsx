@@ -13,45 +13,45 @@ const Menu = () => {
         {
           name: "Signature Dark Roast",
           description: "Our flagship blend with notes of chocolate and caramel",
-          price: "$4.50",
+          price: "KSh 450",
           rating: 4.9,
-          badges: ["Popular", "House Blend"],
+          badges: ["Popular", "House Blend"]
         },
         {
           name: "Medium Roast",
           description: "Smooth and balanced with hints of nuts and vanilla",
-          price: "$4.25",
+          price: "KSh 400",
           rating: 4.8,
-          badges: ["Smooth"],
+          badges: ["Smooth"]
         },
         {
           name: "Light Roast",
           description: "Bright and fruity with floral undertones",
-          price: "$4.25",
+          price: "KSh 400",
           rating: 4.7,
-          badges: ["Bright"],
+          badges: ["Bright"]
         },
         {
           name: "Decaf",
-          description:
-            "Full flavor without the caffeine, Swiss water processed",
-          price: "$4.00",
+          description: "Full flavor without the caffeine, Swiss water processed",
+          price: "KSh 380",
           rating: 4.6,
-          badges: ["Caffeine Free"],
+          badges: ["Caffeine Free"]
         },
         {
           name: "Cold Brew",
           description: "Smooth, concentrated coffee steeped for 12 hours",
-          price: "$4.75",
+          price: "KSh 500",
           rating: 4.8,
-          badges: ["Cold", "Smooth"],
+          badges: ["Cold", "Smooth"]
         },
         {
           name: "Nitro Cold Brew",
           description: "Cold brew infused with nitrogen for creamy texture",
-          price: "$5.25",
+          price: "KSh 550",
           rating: 4.9,
-          badges: ["Premium", "Creamy"],
+          badges: ["Premium", "Creamy"]
+        }
         },
       ],
     },
@@ -61,44 +61,45 @@ const Menu = () => {
         {
           name: "Vintage Cappuccino",
           description: "Classic cappuccino with house-made foam art",
-          price: "$5.25",
+          price: "KSh 550",
           rating: 4.9,
-          badges: ["Popular", "Artistic"],
+          badges: ["Popular", "Artistic"]
         },
         {
           name: "Caffe Latte",
           description: "Espresso with steamed milk and light foam",
-          price: "$5.50",
+          price: "KSh 580",
           rating: 4.8,
-          badges: ["Classic"],
+          badges: ["Classic"]
         },
         {
           name: "Americano",
           description: "Espresso shots with hot water",
-          price: "$4.75",
+          price: "KSh 480",
           rating: 4.7,
-          badges: ["Strong"],
+          badges: ["Strong"]
         },
         {
           name: "Macchiato",
           description: "Espresso 'marked' with a dollop of foam",
-          price: "$4.50",
+          price: "KSh 450",
           rating: 4.8,
-          badges: ["Traditional"],
+          badges: ["Traditional"]
         },
         {
           name: "Mocha",
           description: "Espresso with chocolate and steamed milk",
-          price: "$6.00",
+          price: "KSh 650",
           rating: 4.7,
-          badges: ["Sweet"],
+          badges: ["Sweet"]
         },
         {
           name: "Flat White",
           description: "Double shot espresso with microfoam",
-          price: "$5.75",
+          price: "KSh 600",
           rating: 4.8,
-          badges: ["Strong", "Smooth"],
+          badges: ["Strong", "Smooth"]
+        }
         },
       ],
     },

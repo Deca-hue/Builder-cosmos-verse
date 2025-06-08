@@ -80,9 +80,9 @@ const Contact = () => {
                           Location
                         </h3>
                         <p className="text-coffee-600">
-                          123 Coffee Street
+                          Kimathi Street
                           <br />
-                          Downtown, City 12345
+                          Nairobi, Kenya
                         </p>
                       </div>
                     </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                         <h3 className="font-semibold text-coffee-800 mb-2">
                           Phone
                         </h3>
-                        <p className="text-coffee-600">(555) 123-BEAN</p>
+                        <p className="text-coffee-600">+254 700 123 456</p>
                         <p className="text-coffee-500 text-sm">
                           Call us during business hours
                         </p>
@@ -118,7 +118,9 @@ const Contact = () => {
                         <h3 className="font-semibold text-coffee-800 mb-2">
                           Email
                         </h3>
-                        <p className="text-coffee-600">hello@roastedbean.com</p>
+                        <p className="text-coffee-600">
+                          hello@roastedbean.co.ke
+                        </p>
                         <p className="text-coffee-500 text-sm">
                           We'll respond within 24 hours
                         </p>
@@ -267,9 +269,8 @@ const Contact = () => {
                   By Car
                 </h3>
                 <p className="text-coffee-600 text-sm leading-relaxed">
-                  Free 2-hour parking available in our lot behind the building.
-                  Street parking also available on Coffee Street and Main
-                  Avenue.
+                  Paid parking available nearby. Street parking on Kimathi
+                  Street and surrounding areas in Nairobi CBD.
                 </p>
               </CardContent>
             </Card>
@@ -279,15 +280,14 @@ const Contact = () => {
               <CardContent className="p-0">
                 <Bus className="w-8 h-8 text-coffee-600 mx-auto mb-4" />
                 <h3 className="font-serif text-lg font-semibold text-coffee-800 mb-3">
-                  Public Transit
+                  By Matatu
                 </h3>
                 <p className="text-coffee-600 text-sm leading-relaxed">
-                  Take the #12 or #34 bus to the Downtown Station stop. We're
-                  just a 2-minute walk from the bus stop.
+                  Take any matatu to the CBD and alight at the Kimathi Street
+                  stage. We're just a 1-minute walk from the matatu stage.
                 </p>
               </CardContent>
             </Card>
-
             {/* Walking */}
             <Card className="text-center p-6 border-coffee-200">
               <CardContent className="p-0">
@@ -296,8 +296,8 @@ const Contact = () => {
                   On Foot
                 </h3>
                 <p className="text-coffee-600 text-sm leading-relaxed">
-                  Located in the heart of the downtown walking district. Perfect
-                  for a coffee break during your downtown stroll.
+                  Located in the bustling Nairobi CBD walking area. Perfect for
+                  a coffee break during your city exploration.
                 </p>
               </CardContent>
             </Card>
@@ -317,7 +317,7 @@ const Contact = () => {
                     Interactive Map
                   </h3>
                   <p className="text-coffee-600">
-                    123 Coffee Street, Downtown, City 12345
+                    Kimathi Street, Nairobi, Kenya
                   </p>
                   <Button
                     variant="outline"

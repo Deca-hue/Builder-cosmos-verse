@@ -64,13 +64,13 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p>123 Coffee Street</p>
-                  <p>Downtown, City 12345</p>
+                  <p>Kimathi Street</p>
+                  <p>Nairobi, Kenya</p>
                 </div>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <p>(555) 123-BEAN</p>
+                <p>+254 700 123 456</p>
               </div>
             </div>
           </div>
