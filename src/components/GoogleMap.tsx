@@ -12,7 +12,7 @@ const GoogleMap = ({ className }: GoogleMapProps) => {
   // You'll need to get a Google Maps API key from https://console.cloud.google.com/
   // and add it to your environment variables or directly here for demo purposes
   const API_KEY =
-    process.env.REACT_APP_GOOGLE_MAPS_API_KEY || "YOUR_GOOGLE_MAPS_API_KEY";
+    import.meta.env.VITE_GOOGLE_MAPS_API_KEY || "YOUR_GOOGLE_MAPS_API_KEY";
 
   if (!API_KEY || API_KEY === "YOUR_GOOGLE_MAPS_API_KEY") {
     // Fallback component when API key is not configured

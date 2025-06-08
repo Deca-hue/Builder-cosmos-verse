@@ -22,7 +22,7 @@ This project includes a live Google Maps integration showing the cafe location i
 
 2. Add your Google Maps API key:
    ```
-   REACT_APP_GOOGLE_MAPS_API_KEY=your_actual_api_key_here
+   VITE_GOOGLE_MAPS_API_KEY=your_actual_api_key_here
    ```
 
 ### 3. Restart Development Server
