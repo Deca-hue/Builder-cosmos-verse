@@ -52,7 +52,6 @@ const Menu = () => {
           rating: 4.9,
           badges: ["Premium", "Creamy"]
         }
-        },
       ],
     },
     espresso: {
