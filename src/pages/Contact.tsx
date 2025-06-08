@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GoogleMap from "@/components/GoogleMap";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -305,30 +306,39 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Placeholder */}
+      {/* Live Google Map */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <Card className="border-coffee-200">
+          <div className="text-center mb-8">
+            <h2 className="font-serif text-3xl font-bold text-coffee-800 mb-4">
+              Find Us on the Map
+            </h2>
+            <p className="text-coffee-600 max-w-2xl mx-auto">
+              Located in the heart of Nairobi CBD on Kimathi Street. Click and
+              drag to explore the area around our cafe.
+            </p>
+          </div>
+
+          <Card className="border-coffee-200 overflow-hidden">
             <CardContent className="p-0">
-              <div className="h-96 bg-gradient-to-br from-coffee-100 to-coffee-200 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-12 h-12 text-coffee-600 mx-auto mb-4" />
-                  <h3 className="font-serif text-xl font-semibold text-coffee-800 mb-2">
-                    Interactive Map
-                  </h3>
-                  <p className="text-coffee-600">
-                    Kimathi Street, Nairobi, Kenya
-                  </p>
-                  <Button
-                    variant="outline"
-                    className="mt-4 border-coffee-600 text-coffee-700 hover:bg-coffee-600 hover:text-cream-50"
-                  >
-                    Get Directions
-                  </Button>
-                </div>
-              </div>
+              <GoogleMap className="h-96 w-full" />
             </CardContent>
           </Card>
+
+          <div className="mt-6 text-center">
+            <Button
+              onClick={() =>
+                window.open(
+                  "https://maps.google.com/?q=Kimathi+Street,+Nairobi,+Kenya",
+                  "_blank",
+                )
+              }
+              className="bg-coffee-700 hover:bg-coffee-800 text-cream-50"
+            >
+              <MapPin className="w-4 h-4 mr-2" />
+              Open in Google Maps
+            </Button>
+          </div>
         </div>
       </section>
 
